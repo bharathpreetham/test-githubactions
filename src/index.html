@@ -1,16 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My new Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Cryptocurrencies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		p {
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.portfolio {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 0;
+			justify-content: center;
+		}
+		.portfolio-item {
+			flex: 0 0 calc(33.33% - 20px);
+			margin: 10px;
+			background-color: #f2f2f2;
+			padding: 20px;
+			text-align: center;
+		}
+		.portfolio-item img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
 </head>
 <body>
-	<div class="container">
-		<h1>Subscribe to Our Newsletter</h1>
-		<form>
-			<input type="email" placeholder="Enter your email address" required>
-			<button type="submit">Submit</button>
-		</form>
-	</div>
-</body>
-</html>
+	<header>
+		<h1>Cryptocurrencies</h1>
+	</header>
+	<main>
+		<h2>About Cryptocurrencies</h2>
+		<p>Cryptocurrencies are digital or virtual currencies that use cryptography for security. They are decentralized and operate independently of a central bank. Some of the most popular cryptocurrencies include Bitcoin, Ethereum, and Litecoin.</p>
+		<h2>Portfolio</h2>
+		<p>Here are some of the cryptocurrencies we support:</p>
+		<div class="portfolio">
+			<div class="portfolio-item">
